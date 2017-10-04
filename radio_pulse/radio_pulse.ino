@@ -10,8 +10,8 @@ void setup() {
 unsigned long t = millis();
 bool receiving = false;
 bool sending = false;
-const int pause_ms = 100;
-const int pulse_width = 10;
+const int pause_ms = 50;
+const int pulse_width = 5;
 unsigned long x = millis();
 
 void loop() {
